@@ -11,8 +11,9 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/2puda-icon.png',
 
-    navbar: ['/', '/content'],
+    navbar: ['/', '/content', '/contacts'],
+    colorModeSwitch: false,
   }),
-
+  
   bundler: viteBundler(),
 })
